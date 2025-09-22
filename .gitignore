@@ -1,0 +1,5 @@
+# ignore mac files
+.DS_Store
+._*
+# ignore form design png
+sign-up-form-design.png
