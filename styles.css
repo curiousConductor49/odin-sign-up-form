@@ -17,6 +17,10 @@
     border: 2px solid green;
 }
 
+.image-container img {
+    max-width: 30rem;
+}
+
 .form-container {
     border: 2px solid orange;
 }
