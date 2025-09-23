@@ -21,6 +21,26 @@
     max-width: 30rem;
 }
 
+.title-container {
+    position: absolute;
+    top: calc(50% + 3rem);
+    width: 30rem;
+    text-align: center;
+    letter-spacing: 1.2rem;
+    background: linear-gradient(90deg, rgba(66, 190, 245, 0.6) 0%,rgba(56, 80, 117, 0.6) 100%);
+}
+
+.service-title {
+    color: #fff;
+    font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+}
+
+.img-credit {
+    border: 2px solid pink;
+    
+}
+
 .form-container {
     border: 2px solid orange;
 }
