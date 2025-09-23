@@ -17,6 +17,8 @@ body {
     flex-direction: row;
 }
 
+/* Maybe make img the background of the image-container and just overlay the logo-title and photo credit on top via a flexbox? */
+
 .image-container {
     border: 2px solid green;
 }
@@ -29,20 +31,23 @@ body {
     position: absolute;
     top: calc(50% + 3rem);
     width: 30rem;
-    text-align: center;
-    letter-spacing: 1.2rem;
     background: linear-gradient(90deg, rgba(66, 190, 245, 0.6) 0%,rgba(56, 80, 117, 0.6) 100%);
 }
 
 .service-title {
     color: #fff;
+    text-align: center;
+    letter-spacing: 1.2rem;
     font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
     font-size: 2.5rem;
 }
 
 .img-credit {
     border: 2px solid pink;
-    
+    color:#fff;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
 }
 
 .form-container {
