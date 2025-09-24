@@ -98,9 +98,24 @@ form li > label {
     margin-bottom: 8px;
 }
 
+form li > input {
+    font-family: 'Source Code Pro', system-ui, 'Courier New', Courier, monospace;
+    height: 1.8rem;
+    padding: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2.5px solid rgb(138, 137, 204);
+    border-radius: 3px;
+}
+
 .btn-container {
     /* border: 2px solid red; */
-    margin-top: 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-container button {
