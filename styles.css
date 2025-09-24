@@ -102,12 +102,30 @@ form li > input {
     font-family: 'Source Code Pro', system-ui, 'Courier New', Courier, monospace;
     height: 1.8rem;
     padding: 5px;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: 2.5px solid rgb(138, 137, 204);
+    border-top:2px solid #fff;
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid rgb(138, 137, 204);
     border-radius: 3px;
 }
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(58, 153, 236);
+    box-shadow: 2px 2px 2px grey;
+}
+
+input[type="password"]:invalid {
+    border: 2px solid #E0503D;
+}
+input[type="password"]:valid {
+    border: 2px solid #61AD23;
+}
+input[type="password"]:focus {
+    outline: none;
+    border: 2px solid rgb(58, 153, 236);
+}
+
 
 .btn-container {
     /* border: 2px solid red; */
@@ -130,6 +148,7 @@ form li > input {
 
 .btn-container button:hover{
     background: linear-gradient(90deg, rgba(138, 137, 204) 0%,rgba(56, 80, 117) 100%);
+    box-shadow: 2px 3px 4px grey;
 }
 
 .btn-container .fake-login {
