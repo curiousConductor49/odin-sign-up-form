@@ -72,10 +72,12 @@ body {
 
 .form-disclaimer {
     font-size: 0.5rem;
+    position: absolute;
+    top: 39.5rem;
 }
 
-/* form fieldset {
+form fieldset {
     border: 2px solid rgb(56, 80, 117);
     border-radius: 5px;
     margin: 10px;
-} */
+}
