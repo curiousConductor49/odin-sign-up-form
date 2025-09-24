@@ -58,6 +58,7 @@ body {
     flex-basis: 70%;
     font-family: 'Source Code Pro', system-ui, 'Courier New', Courier, monospace;
     padding: 20px;
+    margin-top: 20px;
 }
 
 .form-title {
@@ -76,6 +77,10 @@ form fieldset {
     border: 2px solid rgb(56, 80, 117);
     border-radius: 5px;
     margin: 10px;
+}
+
+form fieldset:first-of-type {
+    margin-top: 20px;
 }
 
 form ul {
@@ -98,6 +103,8 @@ form li > label {
 form li > input {
     font-family: 'Source Code Pro', system-ui, 'Courier New', Courier, monospace;
     height: 1.8rem;
+    width: 14rem;
+    font-size: 1rem;
     padding: 5px;
     border-top:2px solid #fff;
     border-right: 2px solid #fff;
