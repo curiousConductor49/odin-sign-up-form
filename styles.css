@@ -9,11 +9,11 @@
 
 body {
     margin: 0;
+    height: 100vh;
 }
 
 .page-container {
     /* border: 2px solid red; */
-    height: 100vh;
     display: flex;
     flex-direction: row;
 }
@@ -72,12 +72,51 @@ body {
 
 .form-disclaimer {
     font-size: 0.5rem;
-    position: absolute;
-    top: 39.5rem;
 }
 
 form fieldset {
     border: 2px solid rgb(56, 80, 117);
     border-radius: 5px;
     margin: 10px;
+}
+
+form ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+
+form li {
+    /* border: 2px solid orange; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+form li > label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.btn-container {
+    /* border: 2px solid red; */
+    margin-top: 15px;
+}
+
+.btn-container button {
+    width: 150px;
+    height: 50px;
+    font-family: 'Source Code Pro', system-ui, 'Courier New', Courier, monospace;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(138, 137, 204, 0.8) 0%,rgba(56, 80, 117, 0.8) 100%);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-container button:hover{
+    background: linear-gradient(90deg, rgba(138, 137, 204) 0%,rgba(56, 80, 117) 100%);
+}
+
+.btn-container .fake-login {
+    color: rgb(138, 137, 204);
 }
